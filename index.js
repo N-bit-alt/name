@@ -5,4 +5,8 @@ app.get('/', (req, res) => {
 res.send('Hello World');
 } );
 
+app.get('/bye', (req, res) => {
+    res.send('Bye Bye');
+    } );
+
 app.listen(3000, () => console.log('Listening on port 3000...'));
